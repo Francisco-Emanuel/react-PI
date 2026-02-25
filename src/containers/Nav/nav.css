@@ -1,3 +1,30 @@
+:root {
+    --small-pad: 5px;
+    --medium-pad: 10px;
+    --large-pad: 15px;
+}
+
 nav {
+    margin: 0;
+    padding:0;
     background-color: red;
+}
+
+ul {
+    margin: 0;
+    padding: var(--medium-pad);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    background-color: green;
+    padding: var();
+}
+
+a {
+    text-decoration: none;
+    color: #ececec;
+    background-color: blue;
 }
