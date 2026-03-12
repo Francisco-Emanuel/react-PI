@@ -1,12 +1,12 @@
 import './App.css'
 
-import { Nav } from './containers'
+import { Nav, Section } from './containers'
 
 function App() {
 
   return (
     <>
-      <Nav />
+      <Section />
     </>
   )
 }
